@@ -1,0 +1,7 @@
+** If we need to hover a button then use the same class attribute and colon hover to perform the hover operation over the
+    html element tag. eg:- .subscribe-button:hover{}
+** Opacity --->> It is a property in hover which is used to perform the light visibility of element when hover on it,
+    it ranges from 0 to 1 itself.
+** If we need to change the style of element after a click then use active styling for it similar to hover property.
+    eg:- .subscribe-button:active{}
+** 
