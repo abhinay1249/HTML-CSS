@@ -7,3 +7,10 @@
 ** In order to make a smooth transition use the transition property where it takes two values,
     first one is the another property
     second one is the time.
+** Shadows ----> It is widely used to perform the shadow of the element. It has four properties.
+    transition:p1 p2 p3 p4, 
+        p1 is the horizontal length
+        p2 is the vertical length
+        p3 is the blur ratio
+        p4 is the color to be chosen here rgba(0,0,0,0.15) a is the opacity of the element to be applied.
+    To apply these shadows use box-shadow property.
