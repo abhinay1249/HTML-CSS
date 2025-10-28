@@ -4,4 +4,6 @@
     it ranges from 0 to 1 itself.
 ** If we need to change the style of element after a click then use active styling for it similar to hover property.
     eg:- .subscribe-button:active{}
-** 
+** In order to make a smooth transition use the transition property where it takes two values,
+    first one is the another property
+    second one is the time.
