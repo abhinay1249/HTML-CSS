@@ -128,6 +128,15 @@
                 border-radius: 17px;
                 cursor: pointer;
                 margin-right: 8px;
+                transition: background-color 0.15s,
+                    opacity 0.15s;
+            }
+
+            .css-cart-button:hover{
+                background-color: rgb(247,202,0);
+            }
+            .css-cart-button:active{
+                opacity: 0.5;
             }
             .css-buy-button{
                 background-color: rgb(255,164,28);
@@ -138,6 +147,19 @@
                 cursor: pointer;
                 border-radius: 15px;;
             }
+            .css-buy-button:hover{
+                background-color: rgb(250, 137, 0);
+            }
+
+            .css-buy-button:active{
+                opacity:0.5;
+            }
+            
+            .css-back-link:hover{
+                color:red;
+                transition: color 0.15s;
+            }
+
 
         </style>
     </head>
@@ -149,7 +171,7 @@
         <button class="css-bootstrap1-button">Download</button><p></p>
         <button class="css-linkedin-button">Apply on company website</button>
         <button class="css-linkedin1-button">Save</button><p></p>
-        <a href="https://www.amazon.com">Back to Amazon</a>
+        <a href="https://www.amazon.com" class="css-back-link">Back to Amazon</a>
         <p></p>
         <h2>Nike Black Running Shoes</h2>
         <h3 class="css-p-text">$39 - in stock.</h3>
