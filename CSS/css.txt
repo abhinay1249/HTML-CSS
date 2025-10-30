@@ -18,5 +18,13 @@
 ** Using padding it is easy to perform the size of the element rather than the height and width property.
 ** Vertical align property is used to make the elements be on the proper height with the other elements.
 ** In order to set the text on the page then use,
-    eg:- text-align:center/right/left/top/bottom
-** 
+    eg:- text-align:center/right/left/top/bottom;
+** In order to adjust the line height between lines then,
+    eg:- line-height:24px;
+** In order to get the special characters on the page like tick, small middle dot then use,
+    html entity <character_name>; in css.
+** There has been paragraph tag and class attribute allocated for css even though where ever the code is present in the 
+    up or bottom, it doesnt matter what kind of specific details you are giving is taken for consideration and is called
+    as CSS Specificity.
+    eg:- .<class-attribute>{}, p{} here class attribute is more specific so it is implemented and then the other one is 
+        implemented as a priority and then the process takes place.
