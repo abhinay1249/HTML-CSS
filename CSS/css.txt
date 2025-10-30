@@ -28,3 +28,11 @@
     as CSS Specificity.
     eg:- .<class-attribute>{}, p{} here class attribute is more specific so it is implemented and then the other one is 
         implemented as a priority and then the process takes place.
+** If there exists a scenario where, some part of the specific text need to be modified or styled then 
+    use text element.
+** Text element ----->> It is used to style the specific text from the entire text present in it.
+        -- it contains pre defined styling such as <strong></strong> which becomes bold
+        -- it contains pre defined styling such as <u></u> which does underline.
+        -- it does contain <span></span> which can be used with class attribute and can be styled accordingly.
+** In order to perform the underline in css then use the text-decoration property.
+
