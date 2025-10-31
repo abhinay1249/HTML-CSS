@@ -1,0 +1,1 @@
+<span> it is used to style the text even in a paragraph.
