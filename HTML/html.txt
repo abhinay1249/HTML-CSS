@@ -1,2 +1,3 @@
 <span> it is used to style the text even in a paragraph.
 <strong> it is used to apply bold to a specific text.
+<u> it is used to style the specific word or text.
