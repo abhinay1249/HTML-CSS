@@ -1,3 +1,5 @@
-<span> it is used to style the text even in a paragraph.
-<strong> it is used to apply bold to a specific text.
-<u> it is used to style the specific word or text.
+<span> -----> it is used to style the text even in a paragraph.
+<strong> -----> it is used to apply bold to a specific text.
+<u> -----> it is used to style the specific word or text.
+<!doctype html> ---> it is used to provide the latest features of html to
+    be applicable to the webpage. if not the previous features are used for it.
