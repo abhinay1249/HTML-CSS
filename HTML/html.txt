@@ -3,3 +3,6 @@
 <u> -----> it is used to style the specific word or text.
 <!doctype html> ---> it is used to provide the latest features of html to
     be applicable to the webpage. if not the previous features are used for it.
+<body> ----> that contains all the elements on the webpage.
+void elements -----> these are which that contains just theopening tag but no 
+    closing tag.
