@@ -1,8 +1,10 @@
-<span> -----> it is used to style the text even in a paragraph.
-<strong> -----> it is used to apply bold to a specific text.
-<u> -----> it is used to style the specific word or text.
-<!doctype html> ---> it is used to provide the latest features of html to
+** <span> -----> it is used to style the text even in a paragraph.
+** <strong> -----> it is used to apply bold to a specific text.
+** <u> -----> it is used to style the specific word or text.
+** <!doctype html> ---> it is used to provide the latest features of html to
     be applicable to the webpage. if not the previous features are used for it.
-<body> ----> that contains all the elements on the webpage.
-void elements -----> these are which that contains just theopening tag but no 
+** <body> ----> that contains all the elements on the webpage.
+** void elements -----> these are which that contains just theopening tag but no 
     closing tag.
+** In order to get different types of fonts, visit google fonts and download the code
+    from it and put in head tag.
