@@ -39,5 +39,6 @@
 ** When an image has to be resized, then just resize the width it just automatically resize the height even.
 ** In order to reframe the image, it can be done through 
     object-postion:- center/left/right;
-** 
+** display:inline-block/block which is used to give proper spacing for the html elements.
+
 

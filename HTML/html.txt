@@ -8,3 +8,8 @@
     closing tag.
 ** In order to get different types of fonts, visit google fonts and download the code
     from it and put in head tag.
+** In html there are three types of elements:-
+    -->> block element - it takes the entire line. eg:- <p></p>
+    -->> inline block element - it takes only as much space needed. eg:- <img>, <input>
+    -->> inline element - it appears only within a line of text.
+     
