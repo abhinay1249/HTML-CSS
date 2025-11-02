@@ -14,7 +14,7 @@
         p3 is the blur ratio
         p4 is the color to be chosen here rgba(0,0,0,0.15) a is the opacity of the element to be applied.
     To apply these shadows use box-shadow property.
-** CSS Box Model-->> it describes how  much space an element takes up and hwo far it is away from other elements.
+** CSS Box Model-->> it describes how  much space an element takes up and how far it is away from other elements.
 ** Using padding it is easy to perform the size of the element rather than the height and width property.
 ** Vertical align property is used to make the elements be on the proper height with the other elements.
 ** In order to set the text on the page then use,
