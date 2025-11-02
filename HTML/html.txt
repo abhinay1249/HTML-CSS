@@ -13,3 +13,7 @@
     -->> inline block element - it takes only as much space needed. eg:- <img>, <input>
     -->> inline element - it appears only within a line of text.
 ** By default <button> is a kind of inline element.
+** <div> ----> stands for division, just a box type.
+    --> It contains any kind of element in it.
+    --> It is like a container, that groups all the elements to form a layout.
+    --> in div the block elements, can be put within the container itself.
