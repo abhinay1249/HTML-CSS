@@ -17,3 +17,6 @@
     --> It contains any kind of element in it.
     --> It is like a container, that groups all the elements to form a layout.
     --> in div the block elements, can be put within the container itself.
+** Layouts are used to provide the images and text in a structured manner.
+    -->> horizontal layout
+    -->> vertical layout
