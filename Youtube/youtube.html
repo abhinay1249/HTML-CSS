@@ -5,7 +5,11 @@
     <title>
         YouTube
     </title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
+        p{
+            font-family: Roboto,Arial;
+        }
         .css-img-1 {
             width: 300px;
         }
@@ -14,35 +18,49 @@
             width: 300px;
         }
 
-        .css-display-1,.css-display-2 {
+        .video-title {
+            margin-top: 0;
+        }
+
+        .css-display-1,
+        .css-display-2 {
             display: inline-block;
             vertical-align: top;
         }
-        .css-display-1{
+
+        .css-display-1 {
             margin-right: 20px;
         }
-        .profile-picture{
+
+        .profile-picture {
             display: inline-block;
-            width: 50px;
+            width: 40px;
             vertical-align: top;
         }
-        .video-description{
+
+        .video-description {
             display: inline-block;
-            width:200px;
+            width: 200px;
         }
-        .css-profile-picture{
-            width:100%;
+
+        .css-profile-picture {
+            width: 100%;
+        }
+
+        .video-details {
+            margin-top: 12px;
         }
     </style>
 </head>
 
 <body>
-    <input type="text" placeholder="Search"><p></p>
+    <input type="text" placeholder="Search">
+    <p></p>
     <div class="css-display-1">
         <div>
             <img src="hq720.avif" class="css-img-1">
         </div>
-        <div>
+        <div class="video-details">
             <div class="profile-picture">
                 <img src="unnamed.jpg" class="css-profile-picture">
             </div>
