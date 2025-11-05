@@ -8,6 +8,11 @@
             .profile-description{
                 display:block;
             }
+            p{
+                font-family: arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
             .profile-icon{
                 width:50px;
                 height:50px;
@@ -21,6 +26,9 @@
                 display: inline-block;
                 vertical-align: middle;
             }
+            .image{
+                margin-right: 2px;
+            }
             .image-follow{
                 margin-left:140px;
             }
@@ -28,11 +36,25 @@
                 background-color: rgb(47,127,231);
                 border:none;
                 color:white;
-                padding:10px 25px;
+                padding:10px 20px;
                 border-radius: 5px;
-                font-size:15px;
+                font-size:16px;
                 font-weight: bold;
                 opacity:0.9;
+            }
+            .name{
+                margin-top: 5px;
+                margin-bottom: 4px;
+                font-weight: bold;
+            }
+            .type{
+                margin-top: 3px;
+                margin-bottom: 5px;
+                color:rgb(146, 144, 144);
+            }
+            .stats{
+                color:rgb(146,144,144);
+                font-size: 14px;
             }
         </style>
     </head>
@@ -42,13 +64,13 @@
                 <img src="cute-dog-1.jpg" class="profile-icon">
             </div>
             <div class="image-details">
-                <p>
+                <p class="name">
                     oliver
                 </p>
-                <p>
+                <p class="type">
                     the dog
                 </p>
-                <p>
+                <p class="stats">
                     Popular
                 </p>
             </div>
