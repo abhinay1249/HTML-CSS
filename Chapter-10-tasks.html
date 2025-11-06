@@ -133,7 +133,19 @@
                 margin-top: 3px;
             }
             .internal-img{
-                display:inline-block;
+                display:block;
+            }
+            .internal-sub-img,.internal-text{
+                display: inline-block;
+            }
+            .profile-icon-1{
+                width:50px;
+                height:50px;
+                border-radius:25px;
+                object-fit: cover;
+                object-position: center;
+                margin-right: 10px;
+                vertical-align: middle;
             }
         </style>
     </head>
@@ -251,7 +263,13 @@
             <img src="cute-dog-1.jpg" class="dog-img">
             <p class="dog-name">Oliver</p>
             <div class="internal-img">
-                <p class="friends">2 mutual Friends</p>
+                <div class="internal-sub-img">
+                    <img src="cute-dog-1.jpg" class="profile-icon-1">
+                </div>
+                <div class="internal-text">
+                    <p class="friends">2 mutual Friends</p>
+                </div>
+                
             </div>
             <button class="friend-button">Add Friend</button>
         </div>
