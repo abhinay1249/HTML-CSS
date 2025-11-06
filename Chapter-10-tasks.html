@@ -63,18 +63,41 @@
                 color:rgb(146,144,144);
                 font-size: 14px;
             }
-            .youtube-layout{
+            .youtube-layout,.youtube-layout-1{
                 display:block;
+                margin-bottom: 8px;
             }
             .thumbnail,.description{
                 display: inline-block;
             }
             .img-setup{
                 width:200px;
+                margin-right:8px;
             }
             .spacing{
                 margin-bottom: 30px;
             }
+            .description{
+               vertical-align: top;
+               width:250px; 
+            }
+            .thumbnail-description{
+                font-weight: bold;
+                margin-top: 5px;
+                margin-bottom: 12px;
+                font-size: 16px;
+            }
+            .thumbnail-description-1{
+                font-weight: bold;
+                margin-top: 10px;
+                margin-bottom: 12px;
+                font-size: 16px;
+            }
+            .owner,.video-stats{
+                color:rgb(100,100,100);
+                margin-bottom: 4px;
+                font-size: 14px;
+            } 
         </style>
     </head>
     <body>
@@ -142,17 +165,48 @@
                 <img src="hqdefault.avif" class="img-setup">
             </div>
             <div class="description">
-                <p> 
+                <p class="thumbnail-description"> 
                     How to Complete aganist CS Degrees(as a self-taught dev)
                 </p>
-                <p>
+                <p class="owner">
                     Google
                 </p>
-                <p>
+                <p class="video-stats">
                     1.5B views &middot; 4 years ago
                 </p>
             </div>
-
+        </div>
+        <div class="youtube-layout-1">
+            <div class="thumbnail">
+                <img src="hqdefault (1).avif" class="img-setup">
+            </div>
+            <div class="description">
+                <p class="thumbnail-description"> 
+                    Next - Gen Cooling Technology Full Course Tutorial
+                </p>
+                <p class="owner">
+                    Microsoft
+                </p>
+                <p class="video-stats">
+                    225M views &middot; 3 years ago
+                </p>
+            </div>
+        </div>
+        <div class="youtube-layout-2">
+            <div class="thumbnail">
+                <img src="hqdefault (2).avif" class="img-setup">
+            </div>
+            <div class="description">
+                <p class="thumbnail-description-1"> 
+                    Meta Developer Arena
+                </p>
+                <p class="owner">
+                    Meta
+                </p>
+                <p class="video-stats">
+                    1.1M views &middot; 2 years ago
+                </p>
+            </div>
         </div>
 
     </body>
