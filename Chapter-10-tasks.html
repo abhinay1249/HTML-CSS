@@ -101,9 +101,16 @@
             .img{
                 display: inline-block;
                 box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+                margin-right:10px ;
             }
             .dog-img{
-                width:150px;
+                width:200px;
+                height: 200px;
+                object-fit: cover;
+                object-position: middle;
+            }
+            .cat-img{
+                width:200px;
                 height: 200px;
                 object-fit: cover;
                 object-position: middle;
@@ -275,6 +282,19 @@
             </div>
             <button class="friend-button">Add Friend</button>
         </div>
-
+        <div class="img">
+            <img src="cat2.jpg" class="cat-img">
+            <p class="dog-name">Oliver</p>
+            <div class="internal-img">
+                <div class="internal-sub-img">
+                    <img src="cat2.jpg" class="profile-icon-1">
+                </div>
+                <div class="internal-text">
+                    <p class="friends">2 mutual Friends</p>
+                </div>
+                
+            </div>
+            <button class="friend-button">Add Friend</button>
+        </div>
     </body>
 </html>
