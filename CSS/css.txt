@@ -40,5 +40,6 @@
 ** In order to reframe the image, it can be done through 
     object-postion:- center/left/right;
 ** display:inline-block/block which is used to give proper spacing for the html elements.
+** 
 
 
