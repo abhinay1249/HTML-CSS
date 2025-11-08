@@ -40,6 +40,6 @@
 ** In order to reframe the image, it can be done through 
     object-postion:- center/left/right;
 ** display:inline-block/block which is used to give proper spacing for the html elements.
-** 
-
-
+** Inline CSS - Writing related css code in the  html tag itself.
+** CSS Grid -----> A css grid is like a layout which contains in the pattern of rows and columns.
+** They are used to make the 
