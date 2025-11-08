@@ -42,4 +42,6 @@
 ** display:inline-block/block which is used to give proper spacing for the html elements.
 ** Inline CSS - Writing related css code in the  html tag itself.
 ** CSS Grid -----> A css grid is like a layout which contains in the pattern of rows and columns.
-** They are used to make the 
+** They are used to make the grid look in an appropriate manner without width and height adjustments.
+** grid template columns -->> In this property how many number of columns required and even the width of it.
+    eg:- grid-template-columns:100px 100px 200px; 
