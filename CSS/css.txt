@@ -45,3 +45,6 @@
 ** They are used to make the grid look in an appropriate manner without width and height adjustments.
 ** grid template columns -->> In this property how many number of columns required and even the width of it.
     eg:- grid-template-columns:100px 100px 200px; 
+** Incase in the grid template columns if there has been 3 and below if there are 4 then a new row is created after the 
+    3 columns are done.
+** 
