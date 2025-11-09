@@ -56,4 +56,7 @@
 ** In flexbox we can use it through css as properties and values where as
     eg:- display:flex; flex-direction:row; // here the flex-direction resembles the type of horizontal layout.
 ** In css grid we use freespace(fr) here we will flex:<number> to allow the element to take up the necessary space for it.
-
+** Grid ----> more of kind of rigid where in:-
+    eg:- if we interchange the elements then it will be changed with the size allocated.
+** Flexbox -----> it is more flexible and not rigid:-
+    eg:- even if we interchange the elements the element properties remains same and doesnt change.
