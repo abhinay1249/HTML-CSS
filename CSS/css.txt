@@ -60,3 +60,9 @@
     eg:- if we interchange the elements then it will be changed with the size allocated.
 ** Flexbox -----> it is more flexible and not rigid:-
     eg:- even if we interchange the elements the element properties remains same and doesnt change.
+** In flexbox property, there is a property termed as,
+    -- justify-content: start/center/end which does tries to align the horizontal layout.
+    -- we even have a value as "space-between" where in the elements within the div are equally seperated.     
+** In flexbox property, there is a property termed as,
+    -- align-items: start/center/end/strecth which does tries to align the vertical layout.
+    -- we even have a value as "space-between" where in the elements within the div are equally seperated.     
