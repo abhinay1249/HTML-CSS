@@ -66,3 +66,5 @@
 ** In flexbox property, there is a property termed as,
     -- align-items: start/center/end/strecth which does tries to align the vertical layout.
     -- we even have a value as "space-between" where in the elements within the div are equally seperated.     
+** In order to resize the element size untill a certain width then it has to be set through,
+    eg:- max-width:200px; 
