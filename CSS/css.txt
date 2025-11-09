@@ -53,4 +53,7 @@
 ** In order to set space between columns and rows then use -->> column/row-gap:20px;
 ** Flexbox -----> It is similar to CSS Grid but it is more "flexible".
 ** It is used to create a flexible horizontal layout compared to css grid and even maintains the vertical aligment.
+** In flexbox we can use it through css as properties and values where as
+    eg:- display:flex; flex-direction:row; // here the flex-direction resembles the type of horizontal layout.
+** In css grid we use freespace(fr) here we will flex:<number> to allow the element to take up the necessary space for it.
 
