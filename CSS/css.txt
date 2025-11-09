@@ -50,3 +50,5 @@
 ** Incase there has been a grid if the width is given and "fr" is given then it states free space where in 
     whatever the space is present it is occupied by the fr usage.
     eg:- grid-template-columns:100px 1fr;
+** In order to set space between columns and rows then use,
+    column/row-gap:20px;

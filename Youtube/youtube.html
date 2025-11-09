@@ -7,29 +7,39 @@
     </title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
+        .search-bar{
+            display: block;
+        }
         p{
             font-family: Roboto,Arial;
             margin-top: 0;
             margin-bottom: 0;
         }
-        .css-img-1 {
-            width: 300px;
-        }
 
-        .css-img-2 {
-            width: 300px;
+        .thumbnail{
+            width:100%;
         }
-
-        .video-title {
-            margin-top: 0;
-            font-size: 16px;
+        .video-title{
+            font-size: 14px;
             font-weight: 500;
             line-height: 20px;
-            margin-bottom: 5px;
+            margin-bottom: 12px;
+        }
+        .video-description-grid{
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+
+        .profile-picture{
+            width:40px;
+            border-radius: 50px;
+        }
+        .thumbnail-row{
+            margin-bottom: 12px;
         }
 
         .video-ownership,.video-stats{
-            font-size: 15px;
+            font-size: 12px;
             color:rgb(96,96,96);
         }
 
@@ -37,83 +47,147 @@
             margin-bottom: 4px;
         }
 
-        .css-display-1,
-        .css-display-2 {
-            display: inline-block;
-            vertical-align: top;
-        }
-
-        .css-display-1 {
-            margin-right: 20px;
-        }
-
-        .profile-picture {
-            display: inline-block;
-            width: 40px;
-            vertical-align: top;
-            margin-right: 4px;
-        }
-
-        .video-description {
-            display: inline-block;
-            width: 200px;
-        }
-
-        .css-profile-picture {
-            width: 100%;
-        }
-
-        .video-details {
-            margin-top: 12px;
+        .video-grid{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap:20px ;
+            row-gap: 40px;
         }
     </style>
 </head>
 
 <body>
-    <input type="text" placeholder="Search">
-    <p></p>
-    <div class="css-display-1">
-        <div>
-            <img src="hq720.avif" class="css-img-1">
-        </div>
-        <div class="video-details">
-            <div class="profile-picture">
-                <img src="unnamed.jpg" class="css-profile-picture">
-            </div>
-            <div class="video-description">
-                <p class="video-title">
-                    HTML & CSS Full Course - Beginner to Pro
-                </p>
-                <p class="video-ownership">
-                    SuperSimpleDev
-                </p>
-                <p class="video-stats">
-                    17M views &middot; 3 years ago
-                </p>
-            </div>
+    <input type="text" placeholder="Search" class="search-bar">
 
-        </div>
-    </div>
-    <div class="css-display-2">
-        <div>
-            <img src="hq720 (1).avif" class="css-img-2">
-        </div>
-        <div class="video-details">
-            <div class="profile-picture">
-                <img src="unnamed.jpg" class="css-profile-picture">
+    <div class="video-grid">
+        <div class="video-preview">
+            <div>
+                <img src="hq720.avif" class="thumbnail">
             </div>
-            <div class="video-description">
-                <p class="video-title">
-                    React Full Course - Lesson 3: State, Event Handlers, Create the Chatbot Features
-                </p>
-                <p class="video-ownership">
-                    SuperSimpleDev
-                </p>
-                <p class="video-stats">
-                    20M views &middot; 3 weeks ago
-                </p>
+            <div class="video-description-grid">
+                <div class="channel-picture">
+                    <img src="unnamed.jpg" class="profile-picture">
+                </div>
+                <div class="video-description">
+                    <p class="video-title">
+                        HTML & CSS Full Course - Beginner to Pro
+                    </p>
+                    <p class="video-ownership">
+                        SuperSimpleDev
+                    </p>
+                    <p class="video-stats">
+                        17M views &middot; 3 years ago
+                    </p>
+                </div>
             </div>
         </div>
+
+        <div class="video-preview">
+            <div>
+                <img src="hq720.avif" class="thumbnail">
+            </div>
+            <div class="video-description-grid">
+                <div class="channel-picture">
+                    <img src="unnamed.jpg" class="profile-picture">
+                </div>
+                <div class="video-description">
+                    <p class="video-title">
+                        HTML & CSS Full Course - Beginner to Pro
+                    </p>
+                    <p class="video-ownership">
+                        SuperSimpleDev
+                    </p>
+                    <p class="video-stats">
+                        17M views &middot; 3 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div>
+                <img src="hq720.avif" class="thumbnail">
+            </div>
+            <div class="video-description-grid">
+                <div class="channel-picture">
+                    <img src="unnamed.jpg" class="profile-picture">
+                </div>
+                <div class="video-description">
+                    <p class="video-title">
+                        HTML & CSS Full Course - Beginner to Pro
+                    </p>
+                    <p class="video-ownership">
+                        SuperSimpleDev
+                    </p>
+                    <p class="video-stats">
+                        17M views &middot; 3 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div>
+                <img src="hq720.avif" class="thumbnail">
+            </div>
+            <div class="video-description-grid">
+                <div class="channel-picture">
+                    <img src="unnamed.jpg" class="profile-picture">
+                </div>
+                <div class="video-description">
+                    <p class="video-title">
+                        HTML & CSS Full Course - Beginner to Pro
+                    </p>
+                    <p class="video-ownership">
+                        SuperSimpleDev
+                    </p>
+                    <p class="video-stats">
+                        17M views &middot; 3 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div>
+                <img src="hq720.avif" class="thumbnail">
+            </div>
+            <div class="video-description-grid">
+                <div class="channel-picture">
+                    <img src="unnamed.jpg" class="profile-picture">
+                </div>
+                <div class="video-description">
+                    <p class="video-title">
+                        HTML & CSS Full Course - Beginner to Pro
+                    </p>
+                    <p class="video-ownership">
+                        SuperSimpleDev
+                    </p>
+                    <p class="video-stats">
+                        17M views &middot; 3 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div>
+                <img src="hq720.avif" class="thumbnail">
+            </div>
+            <div class="video-description-grid">
+                <div class="channel-picture">
+                    <img src="unnamed.jpg" class="profile-picture">
+                </div>
+                <div class="video-description">
+                    <p class="video-title">
+                        HTML & CSS Full Course - Beginner to Pro
+                    </p>
+                    <p class="video-ownership">
+                        SuperSimpleDev
+                    </p>
+                    <p class="video-stats">
+                        17M views &middot; 3 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 </body>
