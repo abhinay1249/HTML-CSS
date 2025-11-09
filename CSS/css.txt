@@ -51,4 +51,6 @@
     whatever the space is present it is occupied by the fr usage.
     eg:- grid-template-columns:100px 1fr;
 ** In order to set space between columns and rows then use -->> column/row-gap:20px;
+** Flexbox -----> It is similar to CSS Grid but it is more "flexible".
+** It is used to create a flexible horizontal layout compared to css grid and even maintains the vertical aligment.
 
