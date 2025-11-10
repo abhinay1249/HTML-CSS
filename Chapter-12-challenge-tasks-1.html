@@ -4,36 +4,48 @@
         <title>
             Flex Box Challenge Tasks - 1
         </title>
+        <style>
+            div{
+                font-family: Arial;
+            }
+            .full-box{
+                border-width: 1px;
+                border-color: rgb(200,200,200);
+                border-style: solid;
+                width: 300px;
+                border-radius: 6px;
+            }
+            .container{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding: 6px 12px;
+
+            }
+            .first,.second,.third{
+                background-color: rgb(49,109,245);
+                color:white;
+                font-weight: bold;
+                padding:3px 10px;
+                border-radius: 12px;
+            }
+        </style>
     </head>
     <body>
-        <div>
-            <div>
-                <div>
-                    Home
+        <div class="full-box">
+                <div class="container">
+                    <div>Home</div>
+                    <div class="first">14</div>
                 </div>
-                <div>
-                    <button>14</button>
+                <div class="container">
+                    <div>Notifications</div>
+                    <div class="second">3</div>
                 </div>
-            </div>
-
-            <div>
-                <div>
-                    Notifications
+                <div class="container">
+                    <div>Messages</div>
+                    <div class="third">5</div>
                 </div>
-                <div>
-                    <button>3</button>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    Messages
-                </div>
-                <div>
-                    <button>5</button>
-                </div>
-            </div>
-
         </div>
     </body>
 </html>
