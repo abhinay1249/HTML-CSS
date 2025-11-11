@@ -8,6 +8,9 @@
     height:35px;
     flex:1;
     max-width: 400px;
+    font-size: 16px;
+    border: none;
+    border-width: 1px;
 }
 .left{
     display: flex;
@@ -36,9 +39,21 @@
 }
 
 .search-button{
-    height:20px;
+    margin-right:6px;
+    background-color: rgb(247,247,247);
+    border: none;
+}
+.search-button-img{
+    height:32px;
+    cursor: pointer;
 }
 
 .voice-search-button{
-    height:20px;
+    border-radius: 20px;
+    border:none;
+    background-color: rgb(247,247,247);
+}
+.voice-search-img{
+    height:32px;
+    cursor: pointer;
 }
