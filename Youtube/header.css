@@ -6,8 +6,8 @@
 }
 
 .left{
-    background-color: lightblue;
-    width:150px;
+    display: flex;
+    align-items: center;
 }
 
 .center{
@@ -21,4 +21,10 @@
 .right{
     background-color: lightblue;
     width:200px;
+}
+
+.hamburger-menu,.youtube-logo{
+    height:20px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
