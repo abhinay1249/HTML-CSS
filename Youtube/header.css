@@ -55,15 +55,18 @@
     height:32px;
     cursor: pointer;
 }
-
+ 
 .voice-search-button{
+    height: 40px;
+    width:40px;
     border-radius: 20px;
     border:none;
     background-color: rgb(247,247,247);
     cursor: pointer;
 }
 .voice-search-img{
-    height:32px;
+    height:24px;
+    background-color: rgb(245,245,245);
     
 }
 
