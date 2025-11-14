@@ -70,3 +70,4 @@
     eg:- max-width:200px; 
 ** In order to target a placeholder use the class element :: and then give placeholder then it will give you,
     the access to style it.
+** In order to set shadow inside the search bar ue box-shadow and inset followed by the values.
