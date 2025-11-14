@@ -21,7 +21,7 @@
     margin-right: 35px;
     display: flex;
     align-items: center;
-    max-width: 650px;
+    flex:1;
 }
 
 .search-bar{
@@ -40,20 +40,15 @@
     font-size: 16px;
 }
 
-    
-.right{
-    background-color: lightblue;
-    width:200px;
-}
-
-
-
 .search-button{
     margin-right:6px;
     background-color: rgb(247,247,247);
     border: none;
-    height: 34px;
+    height: 40px;
+    width:60px;
+    /* margin-left: -1px; */
 }
+
 .search-button-img{
     height:32px;
     cursor: pointer;
@@ -68,3 +63,13 @@
     height:32px;
     cursor: pointer;
 }
+
+    
+.right{
+    background-color: lightblue;
+    width:200px;
+}
+
+
+
+
