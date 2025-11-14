@@ -68,4 +68,5 @@
     -- we even have a value as "space-between" where in the elements within the div are equally seperated.     
 ** In order to resize the element size untill a certain width then it has to be set through,
     eg:- max-width:200px; 
-** 
+** In order to target a placeholder use the class element :: and then give placeholder then it will give you,
+    the access to style it.
