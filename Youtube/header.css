@@ -41,12 +41,14 @@
 }
 
 .search-button{
-    margin-right:6px;
-    background-color: rgb(247,247,247);
-    border: none;
-    height: 40px;
-    width:60px;
-    /* margin-left: -1px; */
+  height: 40px;
+  width: 66px;
+  background-color: rgb(240, 240, 240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  margin-left: -1px;
+  margin-right: 10px;
 }
 
 .search-button-img{
