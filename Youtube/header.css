@@ -67,12 +67,28 @@
 
 .voice-search-img{
     height:24px;
-    
 }
 
 .right{
-    background-color: lightblue;
     width:200px;
+    align-items: center;
+}
+
+.video-icon{
+    height:24px;
+    /* align-items: center; */
+}
+.apps-menu{
+    height:24px;
+    align-items: center;
+}
+.bell-icon{
+    height:24px;
+    align-items: center;
+}
+.channel-picture{
+    height:24px;
+    align-items: center;
 }
 
 
