@@ -33,6 +33,7 @@
     box-shadow: inset 1px 2px 0.5px rgba(0,0,0,0.05);
     padding-left:10px;
     border-radius: 2px;
+    width:0;
 }
 
 .search-bar::placeholder{
@@ -70,25 +71,26 @@
 }
 
 .right{
-    width:200px;
+    width:180px;
     align-items: center;
+    display: flex;
+    margin-right: 24px;
+    justify-content: space-between;
+    flex-shrink: 0;
 }
 
 .video-icon{
     height:24px;
-    /* align-items: center; */
 }
 .apps-menu{
     height:24px;
-    align-items: center;
 }
 .bell-icon{
     height:24px;
-    align-items: center;
 }
 .channel-picture{
-    height:24px;
-    align-items: center;
+    height:32px;
+    border-radius: 16px;
 }
 
 

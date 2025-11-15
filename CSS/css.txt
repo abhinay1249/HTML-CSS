@@ -71,3 +71,5 @@
 ** In order to target a placeholder use the class element :: and then give placeholder then it will give you,
     the access to style it.
 ** In order to set shadow inside the search bar ue box-shadow and inset followed by the values.
+** In order to not shrink the flex assigned to the element then use,
+    flex-shrink:0; -->> this will enable you to maintain the space between them.
