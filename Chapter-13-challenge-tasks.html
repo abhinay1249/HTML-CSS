@@ -76,6 +76,14 @@
 
             .tweet{
                 display: flex;
+                flex-direction: row;
+                width:420px;
+                margin-top: 10px;
+                margin-left: 20px;
+            }
+
+            .profile-column{
+                margin-right: 10px;
             }
 
             .img-size{
@@ -83,15 +91,16 @@
                 height: 50px;
                 border-radius:25px;
                 object-fit: cover;
-                object-position:center;
             }
 
             .account-details{
+                flex:1;
+            }
+            .account-name{
                 display: flex;
                 flex-direction: row;
-                margin-bottom: 4px;
+                margin-bottom: 5px;
             }
-
             .name{
                 font-weight: bold;
                 margin-right:5px;
@@ -204,11 +213,11 @@
         </div>
 
         <div class="tweet">
-            <div>
+            <div class="profile-column">
                 <img src="cat2.jpg" class="img-size">
             </div>
-            <div>
-                <div class="account-details">
+            <div class="account-details">
+                <div class="account-name">
                     <div class="name">
                         abhinay.dev
                     </div>
