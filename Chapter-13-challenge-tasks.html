@@ -108,12 +108,39 @@
             }
 
             .tweet-video{
-                
-            }
-            .grey-area{
                 display: flex;
                 flex-direction: row;
+                border-width: 1px;
+                border-style: solid;
+                width:300px;
+                border-color: gray;
+                border-radius: 12px;
+                padding:20px;
+                border-width: 0px;
+                box-shadow: 0 0 5px rgba(0,0,0,0.25);
             }
+
+            .grey-area{
+                width:100px;
+            }
+
+            .tweet-video-info{
+                flex:1;
+                align-items: center;
+            }
+
+            .website{
+                color:rgb(120,120,120);
+                font-size: 16px;
+                margin-bottom: 3px;
+            }
+
+            .video-description{
+                font-weight: bold;
+                font-size: 14px;
+            }
+
+
         </style>
     </head>
     <body>
@@ -193,11 +220,13 @@
                 <div class="tweet-video">
                     <div class="grey-area">
                     </div>
-                    <div>
-                        youtube.com
-                    </div>
-                    <div>
-                        Backend Web Development - a complete overview (2021)
+                    <div class="tweet-video-info">
+                        <div class="website">
+                            youtube.com
+                        </div>
+                        <div class="video-description">
+                            Backend Web Development - a complete overview (2021)
+                        </div>
                     </div>
                 </div>
             </div>
