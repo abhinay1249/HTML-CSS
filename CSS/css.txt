@@ -72,7 +72,8 @@
     the access to style it.
 ** In order to set shadow inside the search bar ue box-shadow and inset followed by the values.
 ** In order to not shrink the flex assigned to the element then use,
-    flex-shrink:0; -->> this will enable you to maintain the space between them.
+    flex-shrink:0; -->> this will enable you to maintain the space between them. but wont shrink even that element has to
+    have width:0; so it does shrink.
 **
 
 **
