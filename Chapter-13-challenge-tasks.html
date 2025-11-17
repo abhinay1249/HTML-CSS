@@ -86,8 +86,24 @@
                 object-position:center;
             }
 
-            .username{
+            .account-details{
                 display: flex;
+                flex-direction: row;
+                margin-bottom: 4px;
+            }
+
+            .name{
+                font-weight: bold;
+                font-size:16px;
+                margin-right:5px;
+            }
+
+            .username{
+                color:rgb(120,120,120);
+            }
+
+            .text{
+                width:350px
             }
 
         </style>
@@ -154,12 +170,17 @@
             <div>
                 <img src="cat2.jpg" class="img-size">
             </div>
-            <div class="account-details">
-                <div class="username">
-                    abhinay.dev
-                    <div>
+            <div>
+                <div class="account-details">
+                    <div class="name">
+                        abhinay.dev
+                    </div>
+                    <div class="username">
                         @abhinayTheDev
-                    </div> 
+                    </div>                 
+                </div>
+                <div class="text">
+                    What is backend Development? A complete overview. New video is up!
                 </div>
             </div>
         </div>
