@@ -83,5 +83,7 @@
 
 ** In position property itself there are four sub topics:- 
     top:numerical;
-
-**
+    left:numerical;
+    left:numerical;
+    right:numerical; 
+** Incase if we give to different directions, then the element applied to it will be strecthed from both the directions.
