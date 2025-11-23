@@ -74,10 +74,13 @@
 ** In order to not shrink the flex assigned to the element then use,
     flex-shrink:0; -->> this will enable you to maintain the space between them. but wont shrink even that element has to
     have width:0; so it does shrink.
+    
 ** CSS Positions ------>> It is used to add a new dimensions to the page by arranging the required neccesary
                         fields in it.
+
 ** In this css positions, there is a default value that is present over here,
     that is:- position:static;
+
 ** In order to fix the css position, then we need to set the property and the value to
     position : fixed; --> wherever this part is used that part remains fixed and the rest are mutuable
 
