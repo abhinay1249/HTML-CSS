@@ -7,19 +7,46 @@
     "height:3000px;font-family: Arial;
     ">
     <div style="display:flex;
-    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding: 10px 50px;
     border-bottom-width:1px;
     border-bottom-style:solid;
     border-bottom-color:rgb(228,228,228);">
-        <div style="padding-left:16px;">
-            <img src="cute-dog-1.jpg" style="height:40px;width:40px;border-radius:25px;object-fit:cover;object-position:center;">
+        <div style="display: flex;
+        align-items: center;">
+            <div style="margin-right:10px;">
+                <img src="cute-dog-1.jpg" style="height:40px;width:40px;border-radius:20px;object-fit:cover;">
+            </div>
+            <div style="font-weight: bold;">
+                Oliver Dog
+            </div>
         </div>
-        <div style="padding-left: 15px;
-        font-weight: bold;
-        margin-top:10px;
-        font-size:16px;">
-            Oliver Dog
+
+        <div style="display: flex;
+        align-items: center;">
+            <button style=" background-color: rgb(24, 119, 242);
+            color: white;
+            font-weight: bold;
+            border: none;
+            padding:8px 12px;
+            border-radius:6px;
+            margin-right: 3px;">
+                Add Button  
+            </button>
+            <button style="background-color: rgb(230, 230, 230);
+            border:none;
+            padding:8px 12px;
+            border-radius: 6px;
+            font-weight:bold;">
+                Message  
+            </button>
         </div>
+
     </div>
 
 </body>
