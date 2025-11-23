@@ -87,4 +87,5 @@
     left:numerical;
     right:numerical; 
 ** Incase if we give to different directions, then the element applied to it will be strecthed from both the directions.
-** In order to give a styling to a Specific border then we can use, border-bottom-style:solid
+** In order to give a styling to a Specific border then we can use, border-bottom-style:solid.
+** If there need to cover the entire page by using a color then it is called as overlay.
