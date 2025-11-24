@@ -9,12 +9,16 @@
 }
 
 .video-time{
+    font-family: Roboto,Arial;
     position: absolute;
     background-color: black;
     color:white;
     border-radius: 4px;
     bottom:20px;
     right:10px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 2px 4px;
 }
 
 .video-title{
