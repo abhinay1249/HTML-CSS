@@ -97,3 +97,4 @@
 ** Fixed --> It is placed in the browser window. 
 ** In order make the element appear below the element of it we use 
     z-index:0(default). Which element has the highest index then the lowest one appears below of an element.
+** Using position:relative, it is possible to arrange the absolute placement of the element in it.
