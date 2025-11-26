@@ -6,6 +6,7 @@
     bottom:0;
     top:55px;
     width:72px;
+    z-index: 1;
 }
 
 .sidebar-menu{
