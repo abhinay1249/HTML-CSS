@@ -87,6 +87,7 @@
     margin-right: 24px;
     justify-content: space-between;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .video-icon{
