@@ -7,6 +7,8 @@
     top:55px;
     width:72px;
     z-index: 1;
+    padding-top: 5px;
+    cursor: pointer;
 }
 
 .sidebar-menu{
