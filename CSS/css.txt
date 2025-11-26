@@ -98,3 +98,5 @@
 ** In order make the element appear below the element of it we use 
     z-index:0(default). Which element has the highest index then the lowest one appears below of an element.
 ** Using position:relative, it is possible to arrange the absolute placement of the element in it.
+** When there is a hover over the button and the text has to appear, only when the cursor is on button and not
+    on the hover area then use, pointer-events:none;
