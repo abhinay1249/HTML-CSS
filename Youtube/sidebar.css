@@ -7,3 +7,21 @@
     top:55px;
     width:72px;
 }
+
+.sidebar-menu{
+    height: 76px;
+    font-family:Arial;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sidebar-menu:hover{
+    background-color: rgb(235,235,235);
+}
+
+.sidebar-icons{
+    height:25px;
+}
