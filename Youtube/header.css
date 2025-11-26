@@ -63,12 +63,19 @@
   position: relative;
 }
 
+.search-button,.voice-search-button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
 .search-button-img{
     height:32px;
     cursor: pointer;
 }
 
-.search-button .tooltip{
+.search-button .tooltip,
+.voice-search-button .tooltip{
     position: absolute;
     background-color: gray;
     color: white;
@@ -79,9 +86,11 @@
     opacity: 0;
     transition: opacity 0.15s;
     pointer-events: none;
+    white-space: nowrap;
 }
 
-.search-button:hover .tooltip{
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip{
     opacity: 1;
 }
  
@@ -96,6 +105,8 @@
 
 .voice-search-img{
     height:24px;
+    margin-top: 6px;
+    margin-left: 2px;
 }
 
 .right{
