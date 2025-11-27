@@ -6,7 +6,9 @@
 .thumbnail-row{
     /* margin-bottom:8px; */
     position: relative;
+    cursor: pointer;
 }
+
 
 .video-time{
     font-family: Roboto,Arial;
@@ -28,6 +30,7 @@
     line-height: 20px;
     margin-bottom: 10px;
 }
+
 
 .video-description-grid{
     display: grid;
