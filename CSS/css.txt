@@ -109,5 +109,6 @@
         }
     }
 ** CSS Specificity ----> The style which is more specific will have the higher priority.
-
+** Semantic Elements which are used for making the webpage readable for robots.
+    They are header, section, nav, main
 
