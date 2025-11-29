@@ -108,4 +108,6 @@
             grid-template-columns:1fr 1fr;
         }
     }
+** CSS Specificity ----> The style which is more specific will have the higher priority.
+
 

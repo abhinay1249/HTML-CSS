@@ -38,8 +38,10 @@
     height:36px;
     flex:1;
     font-size: 16px;
-    border-color:rgb(192,192,192);
-    border-width: 1px;
+    /* border-color:rgb(192,192,192);
+    border-style: solid;
+    border-width: 1px; */
+    border:1px solid rgb(192,192,192);
     box-shadow: inset 1px 2px 0.5px rgba(0,0,0,0.05);
     padding-left:10px;
     border-radius: 2px;
@@ -47,7 +49,6 @@
 }
 
 .search-bar::placeholder{
-    font-family: Roboto,Arial;
     font-size: 16px;
 }
 
@@ -129,7 +130,6 @@
 }
 .upload-icon-container,.youtube-apps-container,
 .bell-icon-container{
-    font-family: Roboto,Arial;
     position: relative;
     display: flex;
     align-items: center;
@@ -153,7 +153,6 @@
     margin-top: 2px;
 }
 .count{
-    font-family: Roboto,Arial;
     position: absolute;
     background-color: rgb(200, 0, 0);
     color: white;
