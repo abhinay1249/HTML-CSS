@@ -101,3 +101,11 @@
 ** When there is a hover over the button and the text has to appear, only when the cursor is on button and not
     on the hover area then use, pointer-events:none;
 ** If the text is wrapped in one content when hovered then use: white-spaces:nowrap;
+** Responsive Design ----->> It is used to adjust the videos on the screen resizing.
+** A Media Query is used to perform the Responsive Design where in the sizing of the website does perform in the way of the
+    sizing of the webpage. eg:- @media(max-width:750px){
+        .video-grid{
+            grid-template-columns:1fr 1fr;
+        }
+    }
+
